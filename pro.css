@@ -1,0 +1,303 @@
+
+
+nav{  /*nav bar*/ 
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 50px;
+
+    
+    
+ } 
+ .logo1{  /*logo of the page*/ 
+    display: flex;
+   
+      
+
+ }
+ .logo1 h1{   /*h1 */ 
+    white-space: nowrap;  
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    margin-top:30px;
+    font-family: 'Libre Bodoni', serif;
+    
+ }
+
+ ul{  /*Carees, about and services*/ 
+    
+    
+    color:white;
+    display: flex;
+    gap: 30px;
+    padding-right:50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style: none;
+    padding-top:15px;
+    font-family: 'Libre Bodoni', serif;
+    font-size:19px;
+    text-decoration: underline;
+}
+    li:hover {
+    color:rgba(1, 226, 1, 0.655);
+     
+            } 
+
+ li a{
+    color: #fff !important;
+
+ }
+
+ 
+
+.logo{   /*logo of the login*/ 
+    padding-left:200px;
+    width: 200x;
+    height: 80px;
+    padding: 10px;
+    border-radius: 250%;
+}
+
+body{  /*body of the page*/ 
+    
+        font-family: arial;
+        font-size: 16px;
+        margin: 0;
+        background: linear-gradient(to right bottom, #007673, #0e0066);
+        color: #fff;
+        min-height: 100vh;
+        margin: 0;
+   @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+    
+
+
+   
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500;1,600&display=swap');
+
+
+
+}
+
+
+.section1{ /*section1 of the home page */
+     width: 65%;
+     margin: 100px auto;
+     text-align: center;
+     padding-top: 10px;
+     font-family: 'Roboto',sans-serif;
+     padding-left: 200px; 
+               }
+  
+      
+    
+
+      .paragaphs{   /*  this.paragaphs the about*/
+          display: flex;
+          gap: 100px;
+          color: rgb(255, 255, 255);
+          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          font-size: 20px;
+
+      }
+
+
+ *,*:after,*:before{   /* section 1 tn the home page*/
+ -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+ box-sizing: border-box;
+    }
+   
+    
+    .container{   /* section 1 tn the home page*/
+        width: 600px;
+    }
+    .h11{  /* section 1 tn the home page*/
+        font-size: 60px;
+        text-align: center;
+    }
+    .row{   /* section 1 tn the home page*/
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .col{ /* section 1 tn the home page*/
+        width: 48%;
+    }
+    select,
+    input{   /* section 1 tn the home page   input */
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding:8px 15px;
+        font-weight: 700
+    }
+    input{   /* section 1 tn the home page   input */
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .Convert{  /* section 1 tn the home page   */
+        width: 200px;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        margin:0 auto;
+        font-size: 22px;
+        border-radius: 15px;
+        background-color: rgba(1, 226, 1, 0.655);
+        color: #fff;
+        border:0;
+        cursor: pointer;
+    }
+    
+    .all{   /* section 1 tn the about page  */
+        display: flex;
+      align-items: center;
+      justify-content: center;
+       width: 100%;
+       height: 99vh;
+       
+      
+    }
+    .all_section{  /* section 1 tn theabout page   input */
+        background-color: white;
+        border-radius: 20px;
+        width: 60%;
+       height: 80%;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .text{  /*  text in the about page */
+        display: flex;
+       font-family: 'Roboto',sans-serif;
+        gap: 10px;
+        color:#0e0066;
+        font-size: 15px;
+        font-family: cursive; 
+        
+        line-height:1.66;
+
+        
+    
+        
+    }
+ .imm{   /*  image in the about page */
+    width:390px;
+    border-radius: 90%; 
+    box-shadow: 0px 4px 8px rgba(13, 255, 33, 0.646); 
+}
+ 
+ .haa{    /*  H1 in the about page */
+    
+    font-family: 'Raleway', sans-serif;
+    color: #0e0066;
+    font-family: cursive; 
+     font-weight: 400;
+    white-space: nowrap;  
+    
+
+ }
+
+ 
+ 
+ 
+ 
+
+
+.bbt{   /*  BUTTON in the about page */
+    width: 100px;
+   height:40px;
+   margin-top:10px;
+   font-size:15px;
+   background-color: rgba(1, 226, 1, 0.655);
+   border-radius: 15px;
+   display: block;
+   border:0;
+   cursor: pointer;
+
+
+}
+
+
+
+
+.imggg{   /*  imageS in the SERVES page */
+  display: flex;
+  gap: 5px;
+  width: 60%;
+  margin: 0 auto;
+
+  
+  
+  
+  
+
+}
+.imggg1{   /*  image1 in the SERVICES page */
+    width: 300px;
+    height: 200px;
+    border-radius: 90%;
+    margin-top:100px;
+    box-shadow: 0px 4px 8px rgb(248, 198, 2); 
+}
+.imggg2{   /*  image2 in the SERVICES page */
+    width: 300px;
+    height: 200px;
+    border-radius: 90%;
+    margin-top:200px;
+    box-shadow: 0px 4px 8px rgb(248, 198, 2); 
+}
+.imggg3{    /*  image3 in the SERVICES page */
+    width: 300px;
+    height: 200px;
+    border-radius: 90%;
+    margin-top:100px;
+    box-shadow: 0px 4px 8px rgb(248, 198, 2); 
+
+}
+
+.pp{    /*  P+H1 in the SERVICES page */
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.H2{   /* H1 in the SERVICES page */
+    padding-left: 270px;
+  font-family: cursive; 
+    color: gold;  
+    
+}
+
+.P{  /*  P in the SERVICES page */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    font-family: cursive; 
+    color: gold;
+
+}
+.clickk{  /* BUTTON in the SERVICES page */
+    
+    width: 100px;
+    height:40px;
+    margin-top:10px;
+    font-size:15px;
+    background-color: gold;
+    border-radius: 15px;
+    display: block;
+    border:0;
+    cursor: pointer;
+    margin-left: 690px;
+ 
+
+}
+
+ /*  FOOTER  */
+footer{  
+    padding-left: 700px;
+    padding-top: 200px;
+}

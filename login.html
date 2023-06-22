@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="login_container">
+      <div class="login">
+        <div class="imag">
+        <img class="logo" src="https://img.freepik.com/vecteurs-libre/signe-dollar-cartoon-vector-icon-illustration-finance-objet-icone-concept-isole-vecteur-premium-style-dessin-anime-plat_138676-3564.jpg" alt="logo">
+        <ul>
+        <h1>login</h1>
+        </div>
+         <!-- SECTION FORM -->
+        <form class="form">
+          <!--input 1-->
+           <input class="input1"
+             type="text"
+             name="FirstName"
+             placeholder="Type your email or number here"/>
+          <br />
+           <!-- ending input 1-->
+
+
+             <!-- input 2-->
+          <input class="input2"
+          type="password"
+          name="Password"
+          placeholder="password"/>
+          <br />
+           <!-- ending input 2-->
+
+
+             <!-- input login-->
+         <input type="submit" id="loginn" value="login">
+            <!-- endig input login-->
+        </form>
+          <!-- ENDING SECTION FORM -->
+
+
+          <!--if you Forget Password-->
+          <h5 class="imag forget">Forget Password?</h5>
+      
+        </div>
+    </div>
+    <!-- script  section-->
+    <script>  
+      document.getElementById("loginn").addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var frt = document.getElementsByClassName("input1")[0];
+        var pst = document.getElementsByClassName("input2")[0];
+
+        if (frt.value === "" || pst.value === "") {
+          if (frt.value === "") {
+            frt.style.borderColor = "red";
+          } else {
+            pst.style.borderColor = "red";
+          }
+        } else {
+          window.location.href = "http://127.0.0.1:5501/pro.html";
+        }
+      });
+    </script>
+    <!-- ending script  section-->
+  </body>
+
+</html>
